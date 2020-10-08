@@ -32,3 +32,7 @@ lscpi gives the following information about my graphic card:
         Capabilities: <access denied>
         Kernel driver in use: nouveau
         Kernel modules: nvidiafb, nouveau
+
+Switching drivers from the default XOrg one to the nVidia one solved the lag
+issue. I still wonder what explain the difference between Qt and XLib with
+the XOrg driver.
